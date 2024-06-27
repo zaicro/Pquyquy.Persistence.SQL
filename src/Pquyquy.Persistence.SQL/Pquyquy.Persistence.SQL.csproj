@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.Persistence.SQL</AssemblyName>
+		<AssemblyTitle>Pquyquy.Persistence.SQL Library</AssemblyTitle>
+		<Product>Pquyquy.Persistence.SQL Library</Product>
+		<RootNamespace>Pquyquy.Persistence.SQL</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Base library from the SQL persistence layer</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Pquyquy.Domain" Version="1.0.0" />
+		<PackageReference Include="Pquyquy.Logger" Version="1.0.0" />
+		<PackageReference Include="Pquyquy.Specification.EntityFrameworkCore" Version="1.0.0" />
+		<PackageReference Include="Scrutor" Version="4.2.2" />
+	</ItemGroup>
+
+</Project>
