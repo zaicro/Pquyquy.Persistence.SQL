@@ -13,14 +13,18 @@
 		<RootNamespace>Pquyquy.Persistence.SQL</RootNamespace>
 		<Authors>Andres Martinez</Authors>
 		<Copyright>Copyright © 2024</Copyright>
-		<Description>Base library from the SQL persistence layer</Description>
+		<Description>Create a DbContext with audit logging capabilities using Pquyquy.Domain, seamlessly integrate with Pquyquy.Specification.EntityFrameworkCore, and enable flexible model injection from any layer.</Description>
+		<Summary>A flexible and extensible logging library for .NET applications.</Summary>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
+		<PackageTags>DbContext;AuditLogging;EntityFrameworkCore;SpecificationPattern</PackageTags>
+		<PackageProjectUrl>https://github.com/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Pquyquy.Domain" Version="1.0.0" />
-		<PackageReference Include="Pquyquy.Logger" Version="1.0.0" />
+		<PackageReference Include="Pquyquy.Logging" Version="1.0.0" />
 		<PackageReference Include="Pquyquy.Specification.EntityFrameworkCore" Version="1.0.0" />
 		<PackageReference Include="Scrutor" Version="4.2.2" />
 	</ItemGroup>

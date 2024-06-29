@@ -28,7 +28,7 @@ Currently, the `Pquyquy.Persistence.SQL` NuGet package is not available in the N
 
 ## Dependencies
 - Pquyquy.Domain
-- Pquyquy.Logger
+- Pquyquy.Logging
 - Pquyquy.Specification.EntityFrameworkCore
 
 ## Usage
